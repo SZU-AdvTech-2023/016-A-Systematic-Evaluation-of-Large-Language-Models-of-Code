@@ -1,0 +1,5 @@
+因未成功复现对PolyCoder的部署，仅上传本地化部署时改动的文件。
+其中corpora.py在tool文件夹下，为了网络问题无法下载enwik8（或enron）数据集及gpt2-vocab和gpt2-merges分词文件而进行的改动，使得本地下载后直接运行。
+data文件夹为本地下载的文件及分词运行后的结果。
+其中out文件夹为enron数据集初步筛选结果，因为pile数据集不再支持该数据集，需要自己通过原始数据进行提取。
+Preprocessed文件夹为GPT-NeoX2.0版本部署后对enwik8数据集得到的分词结果。
